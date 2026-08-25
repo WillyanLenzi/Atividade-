@@ -1,0 +1,7 @@
+comprimento = float(input("digite o comprimento: "))
+largura = float(input("digite a largura: "))
+altura = float(input("digite a altura: "))
+
+area = comprimento * largura * altura 
+
+print(f"a area do seu paralelepipedo é: {area:.2F}")
