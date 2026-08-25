@@ -1,0 +1,10 @@
+angulo1 = float(input("digite o valor do primeiro angulo: "))
+angulo2 = float(input("digite o valor do segundo angulo: "))
+
+angulo3 = 180 - angulo1 - angulo2 
+
+if angulo3 < 180 and angulo3 > 0:
+    print(f"o terceiro angulo é: {angulo3}")
+
+else:
+    print("valor invalido:")
