@@ -1,0 +1,6 @@
+diagonal_maior = float(input("digite o valor da diagonal maior: "))
+diagonal_menor = float(input("digite o valor da diagonal menor: "))
+
+area = (diagonal_maior * diagonal_menor) / 2
+
+print(f"A area do seu losango é: {area:.2F}")
