@@ -1,0 +1,8 @@
+A = int(input("digite o valor A"))
+B = int(input("digite o valor B"))
+
+A , B = B , A
+
+print("depois da troca")
+print("A =", A )
+print("B=", B)
