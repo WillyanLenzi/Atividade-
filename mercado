@@ -1,0 +1,6 @@
+preco_compra = float(input("Valor do produto= "))
+lucro = float(input("lucro= "))
+
+preco_venda = (preco_compra /100) * lucro 
+preco_venda2 = preco_compra + preco_venda
+print (f"o valor final do produto é: {preco_venda2}")
