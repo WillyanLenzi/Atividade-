@@ -1,0 +1,9 @@
+import math 
+
+cateto1 = float(input("primeiro valor: "))
+cateto2 = float(input("segundo valor: "))
+
+valor = (cateto1 ** 2 + cateto2 ** 2) 
+valor2 = math.sqrt(valor)
+
+print(f"o valor é: {valor2:.2F}")
